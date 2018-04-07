@@ -62,7 +62,11 @@ void main(void)
   // successive code is dependent on SD success.
   if (!SocIntegrationInitialize())
   {
-    while (1);
+    while (1)
+    {
+      
+    }
+    
   }
   
   /* Low Level Initialization Modules */
@@ -85,11 +89,26 @@ void main(void)
   /* Main loop */  
   while(1)
   {
+    static u32 u32Timer = 0;
     SocIntegrationHandler();
     AntttRunActiveState();
+    u32Timer ++;
+    
+    if(u32Timer==1000)
+    {
+      if(NRF_GPIO->OUT == P0_29_LED_RED)
+      {
+        NRF_GPIO->OUT = 0x00;
+      }
+      else
+      {
+        NRF_GPIO->OUT = P0_29_LED_RED;
+      }
+      u32Timer = 0;
+    }
    
     /* System sleep*/
-    SystemSleep();
+    //SystemSleep();
     
   } /* end while(1) main super loop */
   
