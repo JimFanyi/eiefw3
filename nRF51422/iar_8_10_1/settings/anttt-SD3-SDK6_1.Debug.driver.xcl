@@ -8,11 +8,11 @@
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\EWARM_8_10_1\arm\CONFIG\debugger\NordicSemi\nrf51422_xxaa.ddf" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\NordicSemi\nRF51422_xxAA.ddf" 
 
 "--semihosting" 
 
-"--device=nrf51422_xxaa" 
+"--device=nRF51422_xxAA" 
 
 "--drv_communication=USB0" 
 

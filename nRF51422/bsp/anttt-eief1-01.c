@@ -81,7 +81,7 @@ void GpioSetup(void)
   NRF_GPIO->PIN_CNF[P0_29_INDEX] = P0_29_LED_RED_CNF;
   
   NRF_GPIO->PIN_CNF[P0_28_INDEX] = P0_28_LED_YLW_CNF;
-
+        NRF_GPIO->OUT = P0_29_LED_RED;
    
 } /* end GpioSetup() */
 
