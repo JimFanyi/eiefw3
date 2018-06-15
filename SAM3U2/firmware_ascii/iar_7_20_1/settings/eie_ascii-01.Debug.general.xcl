@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
+
+"C:\Users\∑∂“Î\Documents\GitHub\eiefw3\SAM3U2\firmware_ascii\iar_7_20_1\Debug\Exe\eie_ascii-01.out" 
+
+--plugin "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\Atmel\SAM3U.dmac" 
+
+--flash_loader "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\Atmel\sam3u2c\sam3u2c-flash.board" 
+
+
+
+
